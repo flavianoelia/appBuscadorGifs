@@ -4,7 +4,7 @@ const llamada = fetch(`
 https://api.giphy.com/v1/gifs/search?
 api_key=${apiKey}
 &q=${term}
-&limit=10
+&limit=9
 &offset=0
 &rating=g
 &lang=es
@@ -17,7 +17,7 @@ llamada
 })
    .then((results) => {
         //let url = results.data [0].images.original.url;
-        //console.log(url);
+        console.log(results);
         results.data.forEach (element =>{
             console.log (element.images.original.url);
             let imagen = document.createElement ("img");
