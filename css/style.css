@@ -1,4 +1,4 @@
-body{
+body {
   font-family: "Rubik Glitch Pop", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -6,50 +6,47 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-
+  background-image: url('../img/fondoCorazonesBlancos.jpg'); /* Ruta relativa a la imagen */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
 }
-.contenedor{
+
+.contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding: 20 px;
-
+  padding: 20px;
 }
 
-.titulo{ 
+.titulo {
   font-family: "Rubik Glitch Pop", system-ui;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
-  font-size: 30px;
+  font-size: 60px;
   color: #000000;
   text-align: center;
 }
 
-input {
-  padding: 10px;
-  font-size: 16px;
-  width: 300;
-}
-
-.btn{
-  padding: 10 px 20 px;
+.btn {
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-
 }
 
-.gifs{
+/* 9 cajas para 9 gifs */
+.gifs {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: (10px);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   width: 800px;
 }
-.gifs img{
-  width: 100px;
+
+.gifs img {
+  width: 100%;
   height: auto;
   border-radius: 8px;
 }
- 
+
  
