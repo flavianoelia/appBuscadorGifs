@@ -1,18 +1,18 @@
 body{
-    font-family: "Rubik Glitch Pop", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Rubik Glitch Pop", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 
 }
 .contenedor{
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   align-items: center;
-  grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
   gap: 10px;
   padding: 20 px;
 
@@ -27,13 +27,18 @@ body{
   text-align: center;
 }
 
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300;
+}
+
 .btn{
   padding: 10 px 20 px;
   font-size: 16px;
   cursor: pointer;
 
 }
-/* 9 cajas para 9 gifs*/
 
 .gifs{
   display: grid;
