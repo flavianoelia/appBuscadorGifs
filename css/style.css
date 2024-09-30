@@ -1,6 +1,7 @@
 body {
   font-family: "Rubik Glitch Pop", system-ui;
   font-weight: 400;
+  min-height: 100vh;
   font-style: normal;
   font-size: 16px;
   margin: 0;
@@ -41,6 +42,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   width: 800px;
+  
 }
 
 .gifs img {
