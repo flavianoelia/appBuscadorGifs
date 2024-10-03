@@ -47,8 +47,7 @@ body {
 
 .gifs img {
   width: 100%;
-  height: auto;
+  height: auto; /* Si ponemos un valor como por ejemplo, 200px, uno se asegura de que se establesca una altura fija para todos los GIFs */
   border-radius: 8px;
 }
-
- 
+/* Si aplicamos object-fit: cover; uno se asegura que la imagen cubra el área sin distorsionarse */
